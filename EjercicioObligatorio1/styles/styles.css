@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* CODIGO GLOBAL */
+body{
+ background-color: #1e1e1e;   
+ background-image: url("/img/encabezado.jpg");
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center center;
+ background-size: cover;
+ font-family: "Poppins", sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+  
+p{
+    margin: 0;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4.2rem;
+}
+h3{
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+}
+
+    .contenedor{
+        text-align: center;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 600px;
+        height: 800px;
+        margin: auto;
+        border-radius: 5px;
+        box-shadow: rgba(53, 53, 53, 0.25) 0px 54px 55px, rgba(53, 53, 53, 0.12) 0px -12px 30px, rgba(53, 53, 53, 0.12) 0px 4px 6px, rgba(53, 53, 53, 0.17) 0px 12px 13px, rgba(53, 53, 53, 0.09) 0px -3px 5px;
+    }
+
+    .bienvenido{
+        position: absolute;
+        top: 10%;
+        left: 30%;
+        padding: .5rem  1.5rem;
+        border-radius: 20px;
+        background: linear-gradient(90deg, rgb(69, 0, 126) 0%, rgb(148, 18, 255) 100%);
+        color: white;
+        font-size: 2rem;
+        box-shadow: #1e1e1e 0 5px 10px;
+    }
+
+    
+.inferior-login p{
+    margin: 4rem 0 3rem 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.formulario-login input{
+    display: block;
+    margin: 2.5rem auto;
+    border: none;
+    border-radius: 1rem;
+    padding: .4rem 1rem;
+    box-shadow: #1e1e1e 0px 5px 0;
+    color: white;
+    background: linear-gradient(90deg, rgba(91,0,167,1) 0%, rgba(168,65,255,1) 100%);
+
+}
+
+.formulario-login a{
+    margin: 0 1rem;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.formulario-login a:hover{
+    color: rgb(125, 6, 204);
+    text-decoration: underline;
+}
+
+.boton-inicio{
+    color: white;
+    cursor: pointer;
+}
+
+input::placeholder{
+    text-align: center;
+    color: white;
+}
