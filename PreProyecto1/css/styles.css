@@ -59,7 +59,7 @@ header {
     color: #000;
 }
 
-.objetos-carrito{
+#objetos-carrito{
     position: fixed;
     margin-left: 1.1rem;
     margin-top: -.5rem;
@@ -69,7 +69,7 @@ header {
     padding: .4rem;
     border-radius: 70%;
 	background:#2eb5f3;
-
+    visibility: hidden;
 }
 
 .wrapper {
