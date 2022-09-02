@@ -8,8 +8,8 @@ const items = document.getElementById("items")
 const templateCard = document.getElementById("template-card").content
 const fragment = document.createDocumentFragment()
 const span = document.getElementById("objetos-carrito")
+let contador = 0;
 
-span.innerHTML="HOLA"
 
 
 items.addEventListener("click", e =>{
@@ -46,6 +46,8 @@ const imprimirTemplate = data => {
 const carrito = e =>{
     if(e.target.classList.contains("btn-agregar")){
         setCarrito(e.target.parentElement)
+        contador++;
+        span.innerHTML=`${contador}`
     }
     e.stopPropagation()
 }
@@ -58,9 +60,10 @@ const setCarrito = objeto =>{
         cantidad:1
     }
     if(carrito.hasOwnProperty(producto.id)){
-        
+        // contador--; meterlo cuando haga el carrito visible
         producto.cantidad=carrito[producto.id].cantidad+1
     }
 
     carrito[producto.id]={...producto}
+    console.log(producto)
 }
