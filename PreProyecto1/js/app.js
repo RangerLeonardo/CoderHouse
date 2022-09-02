@@ -49,6 +49,10 @@ const carrito = e =>{
         contador++;
         span.innerHTML=`${contador}`
     }
+
+    if(contador!=0){
+        span.style.visibility ="visible"
+    }
     e.stopPropagation()
 }
 
