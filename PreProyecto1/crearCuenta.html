@@ -5,8 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/login.css">
+
 </head>
 <body>
-    
+        <div class="contenedor">
+            <div class="superior-login">
+                <p class="bienvenido">Crear Cuenta</p>
+                <img src="/img/hamburguesa-realista-sobre-fondo-pizarra_79603-1042.webp" alt="fondo de inicio">
+            </div>
+            <div class="inferior-login">
+                <p>Crear Cuenta</p>
+                <form  class="formulario-login" id="formulario-crear">
+                    <input type="text" placeholder="nombre" required id="nombre">
+                    <input type="email" placeholder="Email" id="email" required>
+                    <input type="password" placeholder="Password" required id="password">
+                    <div class="extras">
+                        <a href="/login.html">Inicia sesión AQUÍ</a>
+                        <a href="">¿Olvidaste tu contraseña?</a>
+                    </div>
+                    <input type="submit" class="boton-inicio" value="Crear Cuenta" id="crearCuenta">
+                </form>
+            </div>
+
+        </div>
+    <script src="/js/app.js"></script>
 </body>
 </html>
