@@ -1,0 +1,59 @@
+[
+    {
+        "precio":150,
+        "id":1,
+        "title": "Dog-Cheese",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/individual/1.jpg"
+    },
+    {
+        "precio":120,
+        "id":2,
+        "title": "Dog-Strange",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "https://pueblandoando.files.wordpress.com/2020/08/la_pastora_puebla_01.jpg"
+    },
+    {
+        "precio":100,
+        "id":3,
+        "title": "Dog-Molido",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/individual/3.jpg"
+    },
+    {
+        "precio":140,
+        "id":4,
+        "title": "Dog-Bacon",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/individual/4.jpg"
+    },
+
+    {
+        "precio":200,
+        "id":5,
+        "title": "Dog-Style",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/packs/1.jpg"
+    },
+    {
+        "precio":220,
+        "id":6,
+        "title": "Dog-Party",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/packs/2.jpg"
+    },
+    {
+        "precio":190,
+        "id":7,
+        "title": "Dog-Sado",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/packs/6.png"
+    },
+    {
+        "precio":240,
+        "id":8,
+        "title": "Dog-Cultural",
+        "descripcion":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at varius mauris, vitae rhoncus purus. Donec aliquet rhoncus ex ac finibus. Curabitur dolor purus, condimentum ac fermentum id, gravida non sapien. Curabitur bibendum sit amet magna at posuere.",
+        "thumbnailURL": "/img/packs/5.jpg"
+    }
+]
