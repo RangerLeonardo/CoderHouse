@@ -1,0 +1,213 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* CODIGO GLOBAL */
+body{
+ background-color:#ffffff;   
+
+}
+
+a{
+    text-decoration: none;
+}
+  
+p{
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0, .5);
+    font-family: "Great Vibes",cursive;
+
+}
+h2{
+    font-size: 3.3rem;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+h3{
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+}
+
+/* Header inicio */
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+    background-color: #170f0d;
+	margin-bottom:20px;
+    box-shadow: 0 5px 10px 3px rgba(0, 0, 0, 0.7);
+    
+}
+
+.carrito{
+    width: 76px;
+    filter: invert(100%);
+    color: #000;
+}
+
+#objetos-carrito{
+    position: fixed;
+    margin-left: 1.1rem;
+    margin-top: -.5rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .4rem;
+    border-radius: 70%;
+	background:#2eb5f3;
+    visibility: hidden;
+}
+
+.wrapper {
+	width:95%; /* Establecemos que el ancho sera del 90% */
+	margin:auto; /* Centramos los elementos */
+	overflow:hidden; /* Eliminamos errores de float */
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:50px;
+	line-height:80px;
+    width: 90px;
+    margin: 1rem 0 0  -.5rem;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:100px;
+    margin: .8rem 0 0 0;
+}
+
+header nav a {
+	display:inline-block;
+    margin: 0 .5rem;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all .7s ease-in-out;
+	-o-transition:all .7s ease-in-out;
+	transition:all .7s ease-in-out;
+}
+
+header nav a:hover {
+	background:#f56f3a;
+	border-radius:10px;
+
+}
+
+header nav .carrito:hover{
+	background:#28a8db;
+
+}
+
+
+/* Header final */
+
+/* Body Inicio */
+
+.menu{
+    max-width: 1500px;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+}
+
+/* computadora pantalla grande */
+@media (max-width: 1350px) {
+    .menu{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .menu-info img{
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 940px) {
+    .menu{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}
+
+
+
+
+.menu button{
+    display: block;
+    border: none;
+    background-color: #141414;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 2rem auto;
+    width: 100%;
+    -webkit-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+}
+.menu button:hover{
+	background:#f56f3a;
+
+}
+
+.precio{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Poppins", cursive;
+    margin: 2rem 0;
+    text-align: center;
+    font-size: 1.6rem;
+
+}
+
+.menu img{
+    display: block;
+    width: 100%;
+    min-width: 300px;
+    min-height: 300px;
+    margin: 0 auto;
+}
+
+
+.menu p{
+    margin: 1rem auto;
+    font-weight: bold;
+    font-family: "Poppins", serif;
+}
+
+
+
+/* Fin menu */
+
+/* Inicio Index header */
+
+.header{
+    background-color: crimson;
+    height: 60rem;
+    width: 10rem;
+}

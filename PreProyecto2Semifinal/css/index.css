@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* CODIGO GLOBAL */
+body{
+ background-color:#ffffff;   
+
+}
+
+a{
+    text-decoration: none;
+}
+  
+p{
+    margin: 0;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0, .5);
+    font-family: "Great Vibes",cursive;
+
+}
+h2{
+    font-size: 3.3rem;
+    margin: 0;
+    font-family: 'Vollkorn', serif;
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+h3{
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+h4{
+    font-size: 2.8rem;
+}
+img{
+    max-width: 100%;
+}
+
+/* empieza header */
+.header{
+    background-image: url(/img/hamburguesa-realista-sobre-fondo-pizarra_79603-1042.webp);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (min-width: 768px) {
+    .header{
+        height: 100vh;
+    }
+}
